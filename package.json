@@ -1,0 +1,20 @@
+{
+  "name": "katex_json_cli",
+  "version": "1.0.0",
+  "description": "A simple command line utility to interface with Katex using JSON.",
+  "main": "index.js",
+  "bin": {"katex_json_cli": "index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "katex",
+    "cli",
+    "json"
+  ],
+  "author": "Jared Jonas",
+  "license": "ISC",
+  "dependencies": {
+    "katex": "^0.16.11"
+  }
+}
